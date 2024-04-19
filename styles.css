@@ -14,7 +14,11 @@ body{
     text-align:center;
 }
 .center{
+    position: absolute;
     display:block;
-    margin-left:auto;
-    margin-right:auto;
+    text-align:center;                                      
+
 }
+#grad {
+    background-image: linear-gradient(rgb(241, 174, 228), rgb(0, 0, 0));
+  }
