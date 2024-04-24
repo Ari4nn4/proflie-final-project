@@ -19,6 +19,30 @@ body{
     text-align:center;                                      
 
 }
-#grad {
-    background-image: linear-gradient(rgb(241, 174, 228), rgb(0, 0, 0));
+  .image-container {
+    position: relative;
+    display: inline-block;
   }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+.ralewayuniquifier{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
