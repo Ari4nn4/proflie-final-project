@@ -1,41 +1,24 @@
-
-body{
-    background-color:rgb(118, 54, 54);
-    color:black;
-    font-family:"Abel", sans-serif;
-}
-.p{
-    display:flex;
-    text-align:center;
-}
-.img{
-    display:flex;
-    text-align:center;
+h1{
+  color:ghostwhite;
+  align-items:center;
 }
 .center{
-    position: absolute;
-    display:block;
-    text-align:center;                                      
-}
-  .overlay-text {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 20px; 
-    text-align: center;
-  }
-.ralewayuniquifier{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.centered {
-  position: absolute;
+  position:relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  height:auto;
+  color:ghostwhite;
+}
+
+h4{
+  color:ghostwhite;
+}
+img{
+  align-items:center;
+}
+body{
+  background-color:rgb(255, 255, 255)
+}
+P{
+  color:ghostwhite;
 }
