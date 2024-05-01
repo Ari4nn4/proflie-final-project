@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.header{
 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+    text-align: center;
+    background-color: brown;
+}
 body{
     background-color:rgb(118, 54, 54);
     color:black;
@@ -12,6 +18,7 @@ body{
 .img{
     display:flex;
     text-align:center;
+    justify-content: center;
 }
 .center{
     display:block;
@@ -19,5 +26,20 @@ body{
     margin-right:auto;
 }
 nav{
-    
+    background-color:brown;
+    text-align:center;
+    font-family: "abel", sans-serif;
+    color:black;
+}
+nav ul{
+    padding:0%;
+    margin:0%;
+}
+nav ul li a{
+    display:block;
+    padding:10rem 20px;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: ghostwhite;
 }
