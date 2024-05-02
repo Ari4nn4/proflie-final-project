@@ -3,7 +3,11 @@ header{
   text-align:center;
   margin-top:2px;
   color:ghostwhite;
-  font-size:large;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style:normal;
+
 }
 h1{
   color:rgb(0, 0, 0);
@@ -43,10 +47,14 @@ P{
 }
 nav{
   background-color: brown;
+  justify-content:space-around;
+  align-items: center;
+  font-size: medium;
 }
 p,h1,h2.h3 {
   margin:0;
-  padding:0;
+  padding:0px;
+
 }
 a{
   color:ghostwhite;
