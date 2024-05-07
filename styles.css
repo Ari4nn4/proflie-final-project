@@ -17,10 +17,6 @@ h1{
   background-color:rgb(19, 19, 148);
   color:ghostwhite;
 }
-@keyframes example {
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
 @keyframes move {
   from {left: 0;}
   to {left: 110px;}
@@ -34,6 +30,10 @@ h1{
 
 @keyframes img2{
   0%{opacity:0%}
+}
+@keyframes move {
+  from {left: 0;}
+  to {left: 110px;}
 }
 .img2{
 align-items:center;
