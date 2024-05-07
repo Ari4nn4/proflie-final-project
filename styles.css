@@ -59,4 +59,9 @@ a{
   color:ghostwhite;
   align-items: center;
   justify-content: space-between;}
-  
+  .img{
+   animation: img2 6s;
+  }
+@keyframes img2{
+  0%{opacity:0%;}
+}
