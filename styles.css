@@ -1,23 +1,39 @@
 
 header{
-  background-color: brown;
+  background-color: rgb(19, 19, 148);
   text-align:center;
   margin-top:2px;
   color:ghostwhite;
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight:weight;
-  font-style:normal;}
+  font-style:normal;
+z-index:100;
+}
+
 h1{
   color:rgb(0, 0, 0);
   align-items:center;
-  background-color:brown;
+  background-color:rgb(19, 19, 148);
   color:ghostwhite;
+}
+@keyframes example {
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+@keyframes move {
+  from {left: 0;}
+  to {left: 110px;}
 }
 .img{
   justify-content: center;
   text-align: center;
   align-items:center;
+  animation: img2 6s;
+  border-radius:15px;}
+
+@keyframes img2{
+  0%{opacity:0%}
 }
 .img2{
 align-items:center;
@@ -45,10 +61,11 @@ P{
   align-items: center;
 }
 nav{
-  background-color: brown;
-  justify-content:space-around;
-  align-items: center;
-  font-size: medium;
+  background-color: rgb(19, 19, 148);
+  justify-content:center;
+  align-items: space-between;
+  font-size: x-large;
+
 }
 p,h1,h2.h3 {
   margin:0;
@@ -59,4 +76,27 @@ a{
   color:ghostwhite;
   align-items: center;
   justify-content: space-between;}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
   
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(19, 19, 148);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+ 
